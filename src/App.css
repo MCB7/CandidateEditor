@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+/* custom styles */
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto auto;
+ 
+  text-align: center;
+  left: 50%;
+  
+}
+
+input {
+  height: 50px;
+  margin: 20px;
+  text-align: center;
+  left: 50%;
+}
+
+button {
+  
+  height: 40px;
+  margin: 20px;
+  text-align: center;
+  left: 40%;
+}
+
+
+
+p {
+  
+  position: relative;
+  top: 50%;
+  left: 48%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  
+}
